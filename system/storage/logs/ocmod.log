@@ -1,0 +1,5380 @@
+2016-09-22 8:12:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 8:13:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 8:44:34 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL amigável Admin
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1113
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 8:55:43 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL amigável Admin
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1113
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 8:56:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL amigável Admin
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1113
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 9:10:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 9:10:41 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 9:10:46 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 9:11:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL amigável Admin
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1114
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 9:11:27 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL amigável Admin
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1114
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 9:17:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 9:17:43 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL amigável Admin
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1113
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 9:24:44 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 9:25:12 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL amigável Admin
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1113
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 9:41:38 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 9:42:27 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1113
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 9:46:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 9:46:31 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1113
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 9:52:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 9:52:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 61
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 53
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 53
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 9:53:53 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 9:54:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 61
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 53
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 53
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 10:00:52 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:01:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 61
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 53
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 53
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 10:07:05 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:07:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1113
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 10:10:25 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:10:40 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 66
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 88
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 103
+CODE: name="keyword"
+LINE: 270
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 58
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 80
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 95
+CODE: name="keyword"
+LINE: 175
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 58
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 80
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 98
+CODE: name="keyword"
+LINE: 155
+----------------------------------------------------------------
+2016-09-22 10:12:23 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:12:29 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:12:29 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:12:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 61
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 72
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 88
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 103
+CODE: name="keyword"
+LINE: 270
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 53
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 64
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 80
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 95
+CODE: name="keyword"
+LINE: 175
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 53
+CODE: <div class="tab-pane" id="language<?php echo $language['language_id']; ?>">
+LINE: 64
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 80
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 98
+CODE: name="keyword"
+LINE: 155
+----------------------------------------------------------------
+2016-09-22 10:20:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:20:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 465
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 10:24:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:24:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 83
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 88
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 103
+CODE: name="keyword"
+LINE: 270
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 10:25:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:25:33 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 1113
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 10:28:45 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:28:57 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <footer id="footer">
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 10:30:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:30:32 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php echo $footer; ?>
+LINE: 1450
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 10:36:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:36:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php echo $footer; ?>
+LINE: 1450
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 336
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 10:37:08 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:37:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:37:39 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 55
+CODE: <?php echo $footer; ?>
+LINE: 1450
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 65
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 80
+CODE: name="keyword"
+LINE: 247
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 12
+CODE: <?php echo $footer; ?>
+LINE: 130
+CODE: name="name"
+LINE: 42
+CODE: name="keyword"
+LINE: 82
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 47
+CODE: <?php foreach ($languages as $language) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2016-09-22 10:40:47 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:40:58 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 129
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2016-09-22 10:44:50 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 129
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2016-09-22 10:56:24 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2016-09-22 10:56:34 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 129
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2016-09-22 10:58:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 129
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2016-09-22 10:59:24 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 129
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2016-09-22 11:02:41 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2016-09-22 11:04:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2016-09-22 11:11:23 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2016-09-22 12:49:53 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2016-10-18 1:13:49 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-15 23:41:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-15 23:56:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 2:42:05 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 19:58:58 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 20:00:46 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Footer Information
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 11
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 20:01:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Footer Information
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 11
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 20:01:52 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Footer Information
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 11
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 20:03:21 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 20:03:30 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Footer Information
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 16
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 20:05:17 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 20:05:23 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Footer Information
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 20
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 20:06:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 20:06:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Footer Information
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 22
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 21:55:27 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Disable Popup
+
+FILE: catalog/controller/product/product.php
+CODE: $this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');
+LINE: 220
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/magnific/magnific-popup.css');
+LINE: 223
+----------------------------------------------------------------
+MOD: Footer Information
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 22
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 22:33:00 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Disable Popup
+
+FILE: catalog/controller/product/product.php
+CODE: $this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');
+LINE: 220
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/magnific/magnific-popup.css');
+LINE: 223
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 22:33:16 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Disable Popup
+
+FILE: catalog/controller/product/product.php
+CODE: $this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');
+LINE: 220
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/magnific/magnific-popup.css');
+LINE: 223
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-16 22:33:23 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Disable Popup
+
+FILE: catalog/controller/product/product.php
+CODE: $this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');
+LINE: 220
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/magnific/magnific-popup.css');
+LINE: 223
+----------------------------------------------------------------
+MOD: Footer Information
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 24
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
+2017-01-17 1:15:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Category Meta Title
+
+FILE: catalog/controller/product/category.php
+CODE: $data['heading_title'] = $category_info['name'];
+LINE: 99
+----------------------------------------------------------------
+MOD: Disable Popup
+
+FILE: catalog/controller/product/product.php
+CODE: $this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');
+LINE: 220
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/magnific/magnific-popup.css');
+LINE: 223
+----------------------------------------------------------------
+MOD: Footer Information
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 24
+----------------------------------------------------------------
+MOD: Header Information
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 51
+----------------------------------------------------------------
