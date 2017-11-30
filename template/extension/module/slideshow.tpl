@@ -11,16 +11,11 @@
 </div>
 <script type="text/javascript"><!--
 $('#slideshow<?php echo $module; ?>').owlCarousel({
-  items: 6,
-  autoPlay: 6000,
-  singleItem: true,
-  navigation: true,
-  navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-  pagination: false,
-  stopOnHover: true,
-  slideSpeed: 1000,
-  paginationSpeed: 1000,
-  rewindSpeed: 1000,
-  loop: true
+	items: 6,
+	autoPlay: 6000,
+	singleItem: true,
+	navigation: true,
+	navigationText: ['<i class="fa fa-angle-left fa-5x"></i>', '<i class="fa fa-angle-right fa-5x"></i>'],
+	pagination: false
 });
 --></script>

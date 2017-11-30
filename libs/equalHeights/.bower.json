@@ -1,5 +1,5 @@
 {
-  "name": "equalHeights",
+  "name": "equalheights",
   "main": "equalHeights.js",
   "homepage": "https://github.com/neomen/equalHeights",
   "dependencies": {
@@ -17,11 +17,11 @@
   "ignore": [
     "**/.*"
   ],
-  "_release": "ab63c0fa66",
+  "_release": "53c3597bd7",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "ab63c0fa6679c6719686a4758730ea0bc6b0ae01"
+    "commit": "53c3597bd76f2d1b9ea16f52d849e17ff63c0978"
   },
   "_source": "https://github.com/neomen/equalHeights.git",
   "_target": "*",
