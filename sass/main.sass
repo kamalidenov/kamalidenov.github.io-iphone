@@ -1,0 +1,104 @@
+@import "bourbon"
+@import "vars.sass"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+//Custom Styles Here
+
+.about-us
+	background-image: url("../img/bg-vent.jpg")
+	background-position: center
+	background-size: cover
+	position: relative
+	&::before
+		position: absolute
+		content: ""
+		width: 100%
+		height: 100%
+		top: 0
+		left: 0
+		background-color: #000
+		opacity: 0.4
+	&-descr
+		h1
+			margin: 0
+			font-size: 26px
+			color: #fff
+		p
+			color: #fff
+
+.about-us-wrapper
+	padding: 60px 0
+.main-about-company
+	background-image: url("../img/ebene.jpg")
+	&-descr
+		padding: 60px 0
+		h2
+			margin-top: 0
+			text-align: center
+			font-size: 26px
+			text-transform: uppercase
+		p 
+			text-align: center
+			font-size: 18px
+		.servic-img
+			text-align: right
+			img
+				width: 60%
+				padding-top: 40px
+		.list-of-services
+			padding-top: 40px
+footer
+	background-image: url("../img/bg-footer.jpg")
+	background-size: cover
+	.footer-wrap
+		padding: 30px 0
+		.map
+			p 
+				color: #fff
+		.addres
+			strong
+				color: #fff
+			p
+				color: #fff
+		.footer-phone
+			strong
+				color: #fff
+			p
+				color: #fff
+		.footer-menu
+			ul 
+				padding: 0
+				a 
+					color: #fff
+		
+
+
+
+
+//ALWAYS END
+@import "media"
+
+//Load Libs SASS
+@import "app/libs/animate/animate.sass"
