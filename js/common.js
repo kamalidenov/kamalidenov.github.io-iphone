@@ -37,4 +37,10 @@ $(function() {
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
+	$(".toggle-mnu").click(function() {
+		$(this).toggleClass("on");
+		$(".main-menu").slideToggle();
+		
+	});
+
 });
