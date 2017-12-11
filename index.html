@@ -50,31 +50,22 @@
 	<!-- Здесь пишем код -->
 	
 	<header class="top-header">
-		<div class="mobile-mnu hidden-md hidden-lg">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<a href="#" class="toggle-mnu"><span></span></a>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="top-line">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-4">
 						<div class="logo">
 							<img src="" alt="">
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-4">
 						<div class="call-me">
-							<a href="#" class="button">
+							<a href="#callback" class="button">
 								Заказать звонок
 							</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-4">
 						<div class="phone">
 							<i class="fa fa-phone" aria-hidden="true"></i>
 							+7 (707) 777 77 77
@@ -87,12 +78,21 @@
 				</div>
 			</div>
 		</div>
-		
+		<div class="mobile-mnu hidden-lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<a href="#" class="toggle-mnu"><span></span></a>
+
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="main-menu">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<nav>
+						<nav class="main-mnu">
 							<ul>
 								<li class="active"><a href="#">Главная</a></li>
 								<li><a href="#">О компании</a></li>
@@ -251,7 +251,7 @@
 									<li><a href="#">Контакты</a></li>
 								</ul>
 							</nav>
-							<a href="#" class="button">Заказать звонок</a>
+							<a href="#callback" class="button">Заказать звонок</a>
 						</div>
 					</div>
 				</div>
@@ -265,7 +265,11 @@
 
 
 
-	<div class="hidden"></div>
+	<div class="hidden">
+		<form class="callback popup-form" id="callback">
+			Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка своих власти семь решила алфавит однажды залетают за большого агенство точках последний, возвращайся пустился путь не по всей рот подзаголовок.
+		</form>
+	</div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
